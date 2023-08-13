@@ -1,0 +1,11 @@
+{
+    "apps": [{
+        "script": "index.js",
+        "name": "server",
+        "exec_mode": "cluster",
+        "instances": 1,
+        "watch": true,
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "merge_logs": true
+    }]
+}
